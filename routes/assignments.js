@@ -134,7 +134,7 @@ function postAssignment(req, res) {
   assignment.nom = req.body.nom;
   assignment.prof = req.body.prof;
   assignment.imageProf = req.body.imageProf;
-  assignment.designation = req.body.designation;
+  assignment.designations = req.body.designation;
   assignment.matiere = req.body.matiere;
   assignment.imageMatiere = req.body.imageMatiere;
   assignment.note = req.body.note;
